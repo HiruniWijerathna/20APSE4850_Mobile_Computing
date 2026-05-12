@@ -7,14 +7,17 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
 import androidx.compose.material3.TextFieldDefaults
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavGraph
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.practical03.screen.*
+import com.example.practical03.data.AppDatabase
 
 @Composable
 fun CustomTextField(
@@ -44,12 +47,25 @@ fun CustomTextField(
 
 @Composable
 fun NavGraph(){
+    val context = LocalContext.current
+    val db = remember{
+        androidx.room.Room.databaseBuilder(
+            context,
+            AppDatabase::class.java,
+            "app_database"
+        ).build()
+
+    }
+
+    val userDao = db.userDao()
+
     val navController = rememberNavController()
 
     NavHost(navController = navController, startDestination = "login") {
 
         composable("login") {
             LoginScreen(
+                userDao,
                 onLogin = {
                     navController.navigate("home") {
                         popUpTo("login") { inclusive = true }
@@ -64,6 +80,7 @@ fun NavGraph(){
         }
         composable("register") {
             RegisterScreen(
+                userDao,
                 onComplete = { navController.popBackStack() },
 
                 onLoginClick = {

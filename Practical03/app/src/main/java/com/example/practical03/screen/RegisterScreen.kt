@@ -27,11 +27,16 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.practical03.data.User
+import com.example.practical03.data.UserDao
 import com.example.practical03.navigation.CustomTextField
+import androidx.compose.runtime.rememberCoroutineScope
+import kotlinx.coroutines.launch
 
 
 @Composable
 fun RegisterScreen(
+    userDao: UserDao,
     onComplete: () -> Unit,
     onLoginClick: () -> Unit
 ){
@@ -39,7 +44,7 @@ fun RegisterScreen(
     var name by remember { mutableStateOf("") }
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
-
+    val scope = rememberCoroutineScope ()
 
     Column(
         modifier = Modifier
@@ -80,7 +85,19 @@ fun RegisterScreen(
 
         Spacer(modifier = Modifier.size(16.dp))
 
-        Button(onClick = onComplete,
+        Button(onClick = {
+            scope.launch {
+                val user = User(
+                    name = name,
+                    email = email,
+                    password = password
+                )
+                userDao.insertUser(user)
+                onComplete()
+            }
+        },
+
+
             modifier = Modifier
                 .fillMaxWidth()
                 .height(50.dp),

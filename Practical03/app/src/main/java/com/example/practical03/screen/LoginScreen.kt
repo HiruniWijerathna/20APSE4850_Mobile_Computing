@@ -18,6 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -25,16 +26,20 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.practical03.data.UserDao
 import com.example.practical03.navigation.CustomTextField
+import kotlinx.coroutines.launch
 
 @Composable
 fun LoginScreen(
+    userDao: UserDao,
     onLogin: () -> Unit,
     onRegisterClick: () -> Unit
 ) {
 
     var email by remember { mutableStateOf("") }
     var password by remember { mutableStateOf("") }
+    val scope = rememberCoroutineScope ()
 
     Column(
         modifier = Modifier
@@ -69,7 +74,17 @@ fun LoginScreen(
 
         Spacer(modifier = Modifier.size(16.dp))
 
-        Button(onClick = onLogin,
+        Button(onClick = {
+            scope.launch{
+                val user = userDao.login(
+                    email,
+                    password
+                )
+                if(user !=null){
+                    onLogin()
+                }
+            }
+        },
             modifier = Modifier
                 .fillMaxWidth()
                 .height(50.dp),
