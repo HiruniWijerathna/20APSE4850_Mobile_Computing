@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e735536d-1d69-4b7c-a079-2278b9db64ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/androidTest/java/com/mobilecomputing/practical/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/java/com/mobilecomputing/practical/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/java/com/mobilecomputing/practical/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/java/com/mobilecomputing/practical/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/java/com/mobilecomputing/practical/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/app/src/test/java/com/mobilecomputing/practical/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practical/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practical03 - withot refactor/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle/libs.versions.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle/libs.versions.toml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="3DcL4OMyCAXEACWC8bAdJO57qX9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;android.gradle.sync.needed&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;prctical-03&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/20APSE4850_Mobile_Computing/Practical03/app&quot;
+  }
+}</component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e735536d-1d69-4b7c-a079-2278b9db64ce" name="Changes" comment="" />
+      <created>1778576219935</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778576219935</updated>
+    </task>
+    <servers />
+  </component>
+</project>
